@@ -24,7 +24,7 @@ const CreateBook = (props) => {
     e.preventDefault();
 
     axios
-      .post('https://3000-arrpiita-librarymgmnt-d69etp00jdv.ws-us90.gitpod.io/api/books', book)
+      .post('https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us92.gitpod.io/api/books', book)
       .then((res) => {
         setBook({
           title: '',
@@ -40,6 +40,8 @@ const CreateBook = (props) => {
       })
       .catch((err) => {
         console.log('Error in CreateBook!');
+        console.log('The error is -> ')
+        console.log(err)
       });
   };
 
@@ -51,9 +53,6 @@ const CreateBook = (props) => {
             <br />
             <Link to='/' className='btn btn-outline-warning float-left'>
               Show BooK List
-            </Link>
-            <Link to='/' className='btn btn-outline-warning float-left'>
-              Home
             </Link>
           </div>
           <div className='col-md-8 m-auto'>

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 //const config = require('config');
 // package.function.variable
-const db = "mongodb+srv://arpita:April5th@cluster0.zdtiwoa.mongodb.net/?retryWrites=true&w=majority"
+const db = "mongodb+srv://arpita:April5th@cluster0.zdtiwoa.mongodb.net/books?retryWrites=true&w=majority"
 const connectDB = async() =>{
     try{
         mongoose.set("strictQuery", true)

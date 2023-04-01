@@ -11,25 +11,23 @@ function ShowBookDetails(props) {
 
   useEffect(() => {
     axios
-      .get(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us92.gitpod.io/api/books/${id}`)
+      .get(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us93.gitpod.io/api/books/${id}`)
       .then((res) => {
         setBook(res.data);
       })
       .catch((err) => {
         console.log('Error from ShowBookDetails');
-        console.log(err)
       });
   }, [id]);
 
   const onDeleteClick = (id) => {
     axios
-      .delete(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us92.gitpod.io/api/books/${id}`)
+      .delete(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us93.gitpod.io/api/books/${id}`)
       .then((res) => {
         navigate('/');
       })
       .catch((err) => {
         console.log('Error form ShowBookDetails_deleteClick');
-        console.log(err)
       });
   };
 

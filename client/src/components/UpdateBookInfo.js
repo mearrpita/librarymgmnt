@@ -18,7 +18,7 @@ function UpdateBookInfo(props) {
 
   useEffect(() => {
     axios
-      .get(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us92.gitpod.io/api/books/${id}`)
+      .get(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us93.gitpod.io/api/books/${id}`)
       .then((res) => {
         setBook({
           title: res.data.title,
@@ -52,7 +52,7 @@ function UpdateBookInfo(props) {
     };
 
     axios
-      .put(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us92.gitpod.io/api/books/${id}`, data)
+      .put(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us93.gitpod.io/api/books/${id}`, data)
       .then((res) => {
         navigate(`/show-book/${id}`);
       })
@@ -135,7 +135,7 @@ function UpdateBookInfo(props) {
             <div className='form-group'>
               <label htmlFor='published_date'>Published Date</label>
               <input
-                type='date'
+                type='text'
                 placeholder='Published Date'
                 name='published_date'
                 className='form-control'

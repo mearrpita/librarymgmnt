@@ -37,41 +37,33 @@
   }
 }
 
-.CreateBook{
+.CreateBook {
   background-color: black;
   min-height: 100vh;
   color: beige;
 }
 
-.ShowBookDetails{
+.ShowBookDetails {
   background-color: black;
   min-height: 100vh;
   color: beige;
 }
 
-.UpdateBookInfo{
+.UpdateBookInfo {
   background-color: black;
   min-height: 100vh;
   color: beige;
 }
 
-.ShowBookList{
+.ShowBookList {
   background-color: black;
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  min-width: 100vh;
+  min-width: 100px;
   color: beige;
 }
 
-.HomePage{
-  background-color: black;
-  height: 100%;
-  width: 100%;
-  min-height: 100vh;
-  min-width: 100vh;
-  color: beige;
-}
 
 .list {
   display: grid;
@@ -81,6 +73,7 @@
   grid-gap: 2em;
 }
 
+
 .card-container {
   width: 250px;
   border: 1px solid rgb(165, 165, 165);
@@ -89,29 +82,23 @@
   overflow: hidden;
 }
 
-/* .container {
-  width: 250px;
-  border: 1px solid rgb(165, 165, 165);
-  margin: 0 auto;
-  border-radius: 5px;
-  overflow: hidden;
-} */
 
 .desc {
   height: 130px;
   padding: 10px;
 }
 
-.desc h2{
+.desc h2 {
   font-size: 1em;
   font-weight: 400;
 }
 
-.desc h3, p{
+
+.desc h3, p {
   font-weight: 300;
 }
 
-.desc h3 {
+.desc h3  {
   color: #6c757d;
   font-size: 1em;
   padding: 10px 0 10px 0;

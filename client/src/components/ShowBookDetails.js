@@ -11,8 +11,8 @@ function ShowBookDetails(props) {
 
   useEffect(() => {
     axios
-      .get(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us93.gitpod.io/api/books/${id}`)
-      .then((res) => {
+    .get(`https://5000-arrpiita-librarymgmnt-d69etp00jdv.ws-us93.gitpod.io/api/books/${id}`)
+    .then((res) => {
         setBook(res.data);
       })
       .catch((err) => {

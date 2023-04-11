@@ -81,7 +81,7 @@ function UpdateBookInfo(props) {
         <div className='col-md-8 m-auto'>
           <form noValidate onSubmit={onSubmit}>
             <div className='form-group'>
-              <label htmlFor='title'>Title</label>
+              <label htmlFor='title'><b>TITLE</b></label>
               <input
                 type='text'
                 placeholder='Title of the Book'
@@ -94,7 +94,7 @@ function UpdateBookInfo(props) {
             <br />
 
             <div className='form-group'>
-              <label htmlFor='isbn'>ISBN</label>
+              <label htmlFor='isbn'><b>ISBN</b></label>
               <input
                 type='text'
                 placeholder='ISBN'
@@ -107,7 +107,7 @@ function UpdateBookInfo(props) {
             <br />
 
             <div className='form-group'>
-              <label htmlFor='author'>Author</label>
+              <label htmlFor='author'><b>AUTHOR</b></label>
               <input
                 type='text'
                 placeholder='Author'
@@ -120,7 +120,7 @@ function UpdateBookInfo(props) {
             <br />
 
             <div className='form-group'>
-              <label htmlFor='description'>Description</label>
+              <label htmlFor='description'><b>DESCRIPTION</b></label>
               <textarea
                 type='text'
                 placeholder='Description of the Book'
@@ -133,7 +133,7 @@ function UpdateBookInfo(props) {
             <br />
 
             <div className='form-group'>
-              <label htmlFor='published_date'>Published Date</label>
+              <label htmlFor='published_date'><b>PUBLISHED DATE</b></label>
               <input
                 type='text'
                 placeholder='Published Date'
@@ -146,7 +146,7 @@ function UpdateBookInfo(props) {
             <br />
 
             <div className='form-group'>
-              <label htmlFor='publisher'>Publisher</label>
+              <label htmlFor='publisher'><b>PUBLISHER</b></label>
               <input
                 type='text'
                 placeholder='Publisher of the Book'

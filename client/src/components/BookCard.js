@@ -19,7 +19,7 @@ const BookCard = (props) => {
             {book.title}  
           </Link> 
         </h2>
-        <h3 className="text">{book.author}</h3>
+        <h3 className="text-warning">{book.author}</h3>
         <p className="text">{book.description}</p>
       </div>
     </div>  

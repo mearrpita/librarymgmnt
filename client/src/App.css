@@ -101,11 +101,12 @@ background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
 }
 
 .desc h3  {
-  color: #6c757d;
+  /* color: #6c757d; */
+  color: #167fdc;
   font-size: 1em;
   padding: 10px 0 10px 0;
 }
-.text h3{
+.text h{
   color:#11cbe4;
   font-weight: bold;
 }

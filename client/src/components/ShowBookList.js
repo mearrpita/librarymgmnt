@@ -38,7 +38,7 @@ function ShowBookList() {
               to='/create-book'
               className='btn btn-outline-warning float-right'
             >
-              + Add New Book
+              <b>+ Add New Book</b>
             </Link>
             <br />
             <br />

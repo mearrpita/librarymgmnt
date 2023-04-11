@@ -77,7 +77,7 @@ function ShowBookDetails(props) {
           <div className='col-md-10 m-auto'>
             <br /> <br />
             <Link to='/' className='btn btn-outline-warning float-left'>
-              Show Book List
+             <b> Show Book List</b>
             </Link>
           </div>
           <br />
@@ -90,12 +90,12 @@ function ShowBookDetails(props) {
           <div className='col-md-4 m-auto col-md-4'>
             <button
               type='button'
-              className='btn btn-outline-success btn-lg btn-block'
+              className='btn btn-outline-warning btn-lg btn-block'
               onClick={() => {
                 onDeleteClick(book._id);
               }}
             >
-              Delete Book
+              <b>Delete Book</b>
             </button>
             <br /> <br />
           </div>
@@ -104,7 +104,7 @@ function ShowBookDetails(props) {
               to={`/edit-book/${book._id}`}
               className='btn btn-outline-danger btn-lg btn-block'
             >
-              Edit Book
+              <b>Edit Book</b>
             </Link>
             <br /> <br />
           </div>

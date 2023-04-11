@@ -162,7 +162,7 @@ function UpdateBookInfo(props) {
               type='submit'
               className='btn btn-outline-warning btn-lg btn-block'
             >
-              Update Book
+              <b>Update Book</b>
             </button>
             <br /> <br />
           </form>

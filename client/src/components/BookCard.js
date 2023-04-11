@@ -20,7 +20,7 @@ const BookCard = (props) => {
           </Link> 
         </h2>
         <h3 className="text-warning"><b>{book.author}</b></h3>
-        <p className="text-danger">{book.description}</p>
+        <p className="text-danger"><b>{book.description}</b></p>
       </div>
     </div>  
   )

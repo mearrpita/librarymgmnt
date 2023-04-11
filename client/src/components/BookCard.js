@@ -10,18 +10,17 @@ const BookCard = (props) => {
   return (
     <div className='card-container'>
       <img
-        src='https://images.unsplash.com/photo-1495446815901-a7297e633e8d'
-        alt='Books'
-        height={200}
+        src='https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/220/922/datas/original.jpeg'
+        height={200} alt=''
       />
       <div className='desc'>
         <h2>
-          <Link to={ `/show-book/${book._id}` }>
+          <Link className='text' to={ `/show-book/${book._id}` }>
             {book.title}  
           </Link> 
         </h2>
-        <h3>{book.author}</h3>
-        <p>{book.description}</p>
+        <h3 className="text">{book.author}</h3>
+        <p className="text">{book.description}</p>
       </div>
     </div>  
   )

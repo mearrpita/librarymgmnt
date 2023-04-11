@@ -56,8 +56,8 @@ const CreateBook = (props) => {
             </Link>
           </div>
           <div className='col-md-8 m-auto'>
-            <h1 className='display-4 text-center'>Add Book</h1>
-            <p className='lead text-center'>Create new book</p>
+            <h1 className='display-4 t1 text-center'><b>INSERT NEW BOOK</b></h1>
+            <p className='lead text-center'><h3><u><b>Adding new book into record</b></u></h3></p>
 
             <form noValidate onSubmit={onSubmit}>
               <div className='form-group'>
@@ -128,7 +128,7 @@ const CreateBook = (props) => {
 
               <input
                 type='submit'
-                className='btn btn-outline-warning btn-block mt-4'
+                className='btn btn-outline-primary btn-block mt-4'
               />
             </form>
           </div>

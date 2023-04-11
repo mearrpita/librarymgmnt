@@ -13,13 +13,13 @@ const BookSchema = new mongoose.Schema({
          type: String,
          required: true
     },
-    descrption: {
+    description: {
         type: String
     },
     publisher: {
         type: String
     },
-    updated_date: {
+    published_date: {
         type: Date,
         default: Date.now
     }

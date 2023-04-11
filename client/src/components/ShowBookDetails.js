@@ -36,34 +36,34 @@ function ShowBookDetails(props) {
       <table className='table table-hover table-dark'>
         <tbody>
           <tr>
-            <th scope='row'>1</th>
-            <td>Title</td>
-            <td>{book.title}</td>
+            <th className='text-primary' scope='row'>1</th>
+            <td className='text-light'>Title</td>
+            <td className='text-primary'>{book.title}</td>
           </tr>
           <tr>
-            <th scope='row'>2</th>
-            <td>Author</td>
-            <td>{book.author}</td>
+            <th className='text-primary' scope='row'>2</th>
+            <td className='text-light'>Author</td>
+            <td className='text-primary'>{book.author}</td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
-            <td>ISBN</td>
-            <td>{book.isbn}</td>
+            <th className='text-primary'scope='row'>3</th>
+            <td className='text-light'>ISBN</td>
+            <td className='text-primary'>{book.isbn}</td>
           </tr>
           <tr>
-            <th scope='row'>4</th>
-            <td>Publisher</td>
-            <td>{book.publisher}</td>
+            <th className='text-primary'scope='row'>4</th>
+            <td className='text-light'>Publisher</td>
+            <td className='text-primary'>{book.publisher}</td>
           </tr>
           <tr>
-            <th scope='row'>5</th>
-            <td>Published Date</td>
-            <td>{book.published_date}</td>
+            <th className='text-primary' scope='row'>5</th>
+            <td className='text-light'>Published Date</td>
+            <td className='text-primary'>{book.published_date}</td>
           </tr>
           <tr>
-            <th scope='row'>6</th>
-            <td>Description</td>
-            <td>{book.description}</td>
+            <th className='text-primary'scope='row'>6</th>
+            <td className='text-light'>Description</td>
+            <td className='text-primary'>{book.description}</td>
           </tr>
         </tbody>
       </table>
@@ -82,15 +82,15 @@ function ShowBookDetails(props) {
           </div>
           <br />
           <div className='col-md-8 m-auto'>
-            <h1 className='display-4 text-center'>Book's Record</h1>
-            <p className='lead text-center'>View Book's Info</p>
+            <h1 className='display-4 t1 text-center'>ALL BOOK'S RECORD</h1>
+            <p className='lead text-center'><h3><b>View Book's Info</b></h3></p>
             <hr /> <br />
           </div>
           <div className='col-md-10 m-auto'>{BookItem}</div>
-          <div className='col-md-6 m-auto'>
+          <div className='col-md-4 m-auto col-md-4'>
             <button
               type='button'
-              className='btn btn-outline-danger btn-lg btn-block'
+              className='btn btn-outline-success btn-lg btn-block'
               onClick={() => {
                 onDeleteClick(book._id);
               }}
@@ -98,10 +98,10 @@ function ShowBookDetails(props) {
               Delete Book
             </button>
           </div>
-          <div className='col-md-6 m-auto'>
+          <div className='col-md-4 m-auto'>
             <Link
               to={`/edit-book/${book._id}`}
-              className='btn btn-outline-info btn-lg btn-block'
+              className='btn btn-outline-danger btn-lg btn-block'
             >
               Edit Book
             </Link>

@@ -168,9 +168,7 @@ function UpdateBookInfo(props) {
           </form>
           <br /> <br />
         </div>
-        <br /> <br />
       </div>
-      <br /> <br />
     </div>
   );
 }

@@ -106,6 +106,7 @@ function ShowBookDetails(props) {
             >
               Edit Book
             </Link>
+            <br /> <br />
           </div>
         </div>
       </div>

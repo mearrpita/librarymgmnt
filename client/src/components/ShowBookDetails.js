@@ -97,6 +97,7 @@ function ShowBookDetails(props) {
             >
               Delete Book
             </button>
+            <br /> <br />
           </div>
           <div className='col-md-4 m-auto'>
             <Link

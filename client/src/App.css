@@ -106,33 +106,11 @@ background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
   font-size: 1em;
   padding: 10px 0 10px 0;
 }
-.text h{
+.text h3{
   color:#11cbe4;
   font-weight: bold;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Oxygen:wght@400;700&family=Poppins:wght@600&display=swap');
-.typewriter h3 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}
 .text-center{
   color:#0B2559;
   font-family: 'Oswald', sans-serif;

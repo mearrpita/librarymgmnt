@@ -16,7 +16,7 @@ const HomePage = () => {
 
   <div className='logo'>
 
-    <span><h1>Travelo</h1></span>
+    <span><h1>LibraryManagement</h1></span>
 
   </div>
 

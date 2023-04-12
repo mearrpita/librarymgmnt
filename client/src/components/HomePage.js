@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../App.css'
 const HomePage = () => {
 
     const [showNavbar, setShowNavbar] = useState(false)

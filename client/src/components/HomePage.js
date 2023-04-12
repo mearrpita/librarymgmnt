@@ -16,7 +16,11 @@ const HomePage = () => {
 
   <div className='logo'>
 
-    <span><h1><img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" /></h1></span>
+    <span><h1><img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 
+    height={100}
+    width={50}
+    alt='no image'
+ /></h1></span>
 
   </div>
 

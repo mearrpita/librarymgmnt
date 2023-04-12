@@ -54,7 +54,7 @@ const HomePage = () => {
 
  
 <div className="p-5 text-center bg-image rounded-3">
-  <img src='./image/library-animate.svg' alt=''/>
+  <img src='./image/library-animate.svg' alt='' height={500} width={100}/>
   <div className="mask" >
     <div className="d-flex justify-content-center align-items-center h-100">
       <div className="text-white">

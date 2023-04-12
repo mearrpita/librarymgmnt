@@ -16,7 +16,7 @@ const HomePage = () => {
 
   <div className='logo'>
 
-    <span><h1>LibraryManagement</h1></span>
+    <span><h1><i class="fa-duotone fa-books fa-beat" style="--fa-primary-color: #183577; --fa-secondary-color: #5d2245;"></i></h1></span>
 
   </div>
 

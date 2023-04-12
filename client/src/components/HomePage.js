@@ -15,12 +15,13 @@ const HomePage = () => {
 <div className='container'>
 
   <div className='logo'>
+  <i class="fa-regular fa-book-open-cover"></i>
 
-    <span><h1><img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 
+    {/* <img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 
     height={50}
     width={150}
-    alt=' ' className='mb-4'
- /></h1></span>
+    alt=' ' className=''
+ /> */}
 
   </div>
 

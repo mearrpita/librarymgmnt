@@ -19,7 +19,7 @@ const HomePage = () => {
     <span><h1><img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 
     height={50}
     width={150}
-    alt='no image' className='mb-4'
+    alt=' ' className='mb-4'
  /></h1></span>
 
   </div>

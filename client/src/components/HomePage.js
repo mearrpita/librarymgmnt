@@ -15,7 +15,7 @@ const HomePage = () => {
 <div className='container'>
 
   <div className='logo'>
-  <img src="C:\Users\Arpita Subudhi\Downloads\library-management-1--unscreen.gif" width={150} />
+  <img src='./image/library-management' alt='' height={500} />
 
     {/* <img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 
     height={50}

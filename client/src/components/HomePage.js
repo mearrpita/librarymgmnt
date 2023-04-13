@@ -15,7 +15,7 @@ const HomePage = () => {
 <div className='container'>
 
   <div className='logo'>
-  <img src='./image/Screenshot__9_-removebg-preview.png' alt=''  height={500} width={500}/>
+  <span><h1>Library management</h1></span>
    
 
     {/* <img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 

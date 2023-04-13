@@ -16,7 +16,7 @@ const HomePage = () => {
 
   <div className='logo'>
   <video  height={200} width={500} controls>
-    <source src='library-management-1--unscreen.gif' type='video/mp4'/>
+    <source src='library-management-1--unscreen.gif' type='gif'/>
     </video>  
 
     {/* <img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 

@@ -35,16 +35,16 @@ const HomePage = () => {
   <div className={`nav-element ${showNavbar && 'active'} `} >
     <ul >
       <li>
-        <Link to='/'><b>Home</b></Link>
+        <Link to='/show-list'><b>HOME</b></Link>
       </li>
       <li>
-        <Link to='/create-book'><b>User</b></Link>
+        <Link to='/create-book'><b>BOOK</b></Link>
       </li>
       <li>
-        <Link to='/'><b>Services</b></Link>
+        <Link to='/'><b>ABOUT</b></Link>
       </li>
       <li>
-        <Link to='/show-list'><b>Contact</b></Link>
+        <Link to='/'><b>CONTACT-US</b></Link>
       </li>
     </ul>
   </div>

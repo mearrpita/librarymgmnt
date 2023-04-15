@@ -80,8 +80,8 @@ const HomePage = () => {
         hsla(263, 88%, 45%, 0.5) 100%
       );
     "
-  ></div>
-                </div> */}
+  ></div> */}
+                </div>
                 <div class="col-xs-6 imgcont" id="port2-second-col">
                     <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b41900117083619.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg" alt=" " padding={0} height={300} />
                 </div>

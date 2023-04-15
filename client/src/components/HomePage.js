@@ -97,16 +97,16 @@ const HomePage = () => {
        <section>
         <p> 
          <h2><b>Why Library Management System is used?</b></h2>
-              <h4><span>Library management systems</span> are used to manage the operations and resources of a library. The primary objective of a library management system is to provide an efficient and effective way to manage library resources such as books, journals, magazines, and other materials.</h4>
+              <h5><span>Library management systems</span> are used to manage the operations and resources of a library. The primary objective of a library management system is to provide an efficient and effective way to manage library resources such as books, journals, magazines, and other materials.</h5>
         </p>
         <p>
           <h2 className='text-left'><b>Advantages:</b></h2>
-             <h4 className='text-left'>. A library management system can automate many tasks, including cataloging, circulation, and acquisitions.<br />
+             <h5 className='text-left'>. A library management system can automate many tasks, including cataloging, circulation, and acquisitions.<br />
                  . Library management systems can make it easier for users to find the resources they need.<br />
                  . Library management systems can help protect library resources by tracking their location.<br />
                  . Library management systems can generate reports and analytics that help librarians.<br />
                  .  Remote access<br />
-            </h4>
+            </h5>
         </p>
      </section>
 </div>

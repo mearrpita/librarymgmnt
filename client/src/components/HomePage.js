@@ -41,7 +41,7 @@ const HomePage = () => {
         <Link to='/create-book'><b>BOOK</b></Link>
       </li>
       <li>
-      <a class = "nav-link" href ="#content">HOME</a>
+      <a class = "nav-link" href ="#content"><b>ABOUT</b></a>
        {/* <Link to='/content'><b>ABOUT</b></Link> */}
       </li>
       <li>

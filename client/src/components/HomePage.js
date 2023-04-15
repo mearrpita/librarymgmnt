@@ -74,6 +74,9 @@ const HomePage = () => {
                 <div class="col-xs-6 imgcont" id="port2-second-col">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTasNQph6qk0lkSPdu1c4BSMuKimif62KAujICU2FLr7-KKj5YYuvmG9sc3rU8jc3zRo&usqp=CAU" alt=" " padding={0} height={300} />
                 </div>
+                <div class="col-xs-6 imgcont" id="port2-second-col">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b41900117083619.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg" alt=" " padding={0} height={300} />
+                </div>
 
             </div>
        </div>

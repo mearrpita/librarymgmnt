@@ -85,7 +85,7 @@ const HomePage = () => {
                     <img src="https://youcanlearnhowtocode.com/wp-content/uploads/2021/03/woman-looking-at-books-in-library-668x525.jpg" alt=" " padding={0} height={300} />
                 </div>
                 <div class="col-xs-6 imgcont" id="port2-second-col">
-                    <img src="https://itechindia.co/wp-content/uploads/2021/11/main-banner1.jpeg"alt=" " padding={0} height={300} />
+                    <img src="https://itechindia.co/wp-content/uploads/2021/11/main-banner1.jpeg"alt=" " padding={0} height={300} width={400} />
                 </div>
                 
             </div>

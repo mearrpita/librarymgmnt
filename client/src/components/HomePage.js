@@ -66,7 +66,17 @@ const HomePage = () => {
 </div>
 
 <div className="p-5 text-center bg-image rounded-3">
-  
+    <div class="container-fluid">
+            <div class="row" id="port2-second-row">
+                <div class="col-xs-6 imgcont" id="port2-first-col">
+                    <img src="static/assets/training.png" alt="training" />
+                </div>
+                <div class="col-xs-6 imgcont" id="port2-second-col">
+                    <img src="static/assets/recruit.png" alt="recruit" />
+                </div>
+
+            </div>
+       </div>
 </div>
 
 

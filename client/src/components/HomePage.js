@@ -71,7 +71,7 @@ const HomePage = () => {
             <div class="row" id="port2-second-row">
             <div class="col-xs-6 imgcont" id="port2-second-col">
                     <img src="https://miro.medium.com/v2/resize:fit:1200/0*36G2SMPQf5XiM05A" alt=" " padding={0} height={300} width={400} />
-                    {/* <div
+                    <div
     class="mask"
     style="
       background: linear-gradient(
@@ -80,7 +80,7 @@ const HomePage = () => {
         hsla(263, 88%, 45%, 0.5) 100%
       );
     "
-  ></div> */}
+  ></div>
                 </div>
                 <div class="col-xs-6 imgcont" id="port2-second-col">
                     <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b41900117083619.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg" alt=" " padding={0} height={300} />

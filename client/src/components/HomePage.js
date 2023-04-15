@@ -66,7 +66,7 @@ const HomePage = () => {
 </div>
 
 <div className="p-5 text-center bg-image rounded-3">
-  <p><h3 className='text-center'>Here some of our <span>library pictures:</span></h3></p>
+  <p><h3 className='text-left'>Here some of our <span>library pictures:</span></h3></p>
     <div class="container-fluid">
             <div class="row" id="port2-second-row">
                 <div class="col-xs-6 imgcont" id="port2-first-col">

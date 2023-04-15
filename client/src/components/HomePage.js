@@ -101,11 +101,11 @@ const HomePage = () => {
         </p>
         <p>
           <h2 className='text-left'><b>Advantages:</b></h2>
-             <h4 className='text-left'>. A library management system can automate many tasks, including cataloging, circulation, and acquisitions.
-                 . Library management systems can make it easier for users to find the resources they need.
-                 . Library management systems can help protect library resources by tracking their location.
-                 . Library management systems can generate reports and analytics that help librarians.
-                 .  Remote access
+             <h4 className='text-left'>. A library management system can automate many tasks, including cataloging, circulation, and acquisitions.<br />
+                 . Library management systems can make it easier for users to find the resources they need.<br />
+                 . Library management systems can help protect library resources by tracking their location.<br />
+                 . Library management systems can generate reports and analytics that help librarians.<br />
+                 .  Remote access<br />
             </h4>
         </p>
      </section>

@@ -69,18 +69,11 @@ const HomePage = () => {
   <p><h2 className='text-left'>Here some of our <span>library pictures:</span></h2></p>
     <div class="container-fluid">
             <div class="row" id="port2-second-row">
-            <div class="col-xs-6 imgcont bg-image hover-overlay" id="port2-second-col">
+            <div class="col-xs-6 imgcont hover-overlay hover-zoom hover-shadow ripple" id="port2-second-col">
                     <img src="https://miro.medium.com/v2/resize:fit:1200/0*36G2SMPQf5XiM05A" alt=" " padding={0} height={300} width={400} />
-                    <div
-    class="mask"
-    style="
-      background: linear-gradient(
-        45deg,
-        hsla(168, 85%, 52%, 0.5),
-        hsla(263, 88%, 45%, 0.5) 100%
-      );
-    "
-  ></div>
+                    <a href="#!">
+    <div class="mask" style="background-color: hsla(195, 83%, 58%, 0.2)"></div>
+  </a>
                 </div>
                 <div class="col-xs-6 imgcont" id="port2-second-col">
                     <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b41900117083619.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg" alt=" " padding={0} height={300} />

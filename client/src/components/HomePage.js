@@ -69,7 +69,7 @@ const HomePage = () => {
     <div class="container-fluid">
             <div class="row" id="port2-second-row">
                 <div class="col-xs-6 imgcont" id="port2-first-col">
-                    <img src="https://assignmentpoint.com/wp-content/uploads/2013/06/Online-Library.jpg" alt=" " height={500} width={500} />
+                    <img src="https://assignmentpoint.com/wp-content/uploads/2013/06/Online-Library.jpg" alt=" " height={300} width={300} padding={0} />
                 </div>
                 <div class="col-xs-6 imgcont" id="port2-second-col">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTasNQph6qk0lkSPdu1c4BSMuKimif62KAujICU2FLr7-KKj5YYuvmG9sc3rU8jc3zRo&usqp=CAU" alt=" " padding={0} />

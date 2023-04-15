@@ -34,10 +34,10 @@ const HomePage = () => {
 
   <div className={`nav-element ${showNavbar && 'active'} `} >
     <ul >
-      <li>
+      <li className='nav'>
         <Link to='/show-list'><b>HOME</b></Link>
       </li>
-      <li>
+      <li className='nav'>
         <Link to='/create-book'><b>BOOK</b></Link>
       </li>
       <li>

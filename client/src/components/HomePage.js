@@ -69,10 +69,10 @@ const HomePage = () => {
     <div class="container-fluid">
             <div class="row" id="port2-second-row">
                 <div class="col-xs-6 imgcont" id="port2-first-col">
-                    <img src="static/assets/training.png" alt="training" />
+                    <img src="static/assets/training.png" alt="training" height={100} width={100} />
                 </div>
                 <div class="col-xs-6 imgcont" id="port2-second-col">
-                    <img src="static/assets/recruit.png" alt="recruit" />
+                    <img src="static/assets/recruit.png" alt="recruit" padding={0} />
                 </div>
 
             </div>

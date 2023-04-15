@@ -44,7 +44,7 @@ const HomePage = () => {
         <Link to='/'><b>Services</b></Link>
       </li>
       <li>
-        <Link to='/'><b>Contact</b></Link>
+        <Link to='/show-list'><b>Contact</b></Link>
       </li>
     </ul>
   </div>

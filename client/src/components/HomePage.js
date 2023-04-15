@@ -65,6 +65,10 @@ const HomePage = () => {
   </div>
 </div>
 
+<div className="p-5 text-center bg-image rounded-3">
+  
+</div>
+
 
 
 

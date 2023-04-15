@@ -45,7 +45,8 @@ const HomePage = () => {
        {/* <Link to='/content'><b>ABOUT</b></Link> */}
       </li>
       <li>
-        <Link to='/'><b>CONTACT-US</b></Link>
+      <a class = "nav-link" href ="#contact"><b>CONTACT-US</b></a>
+        {/* <Link to='/'><b>CONTACT-US</b></Link> */}
       </li>
     </ul>
   </div>
@@ -93,6 +94,10 @@ const HomePage = () => {
              </div>
        </div>
 </div>
+</section>
+
+<section id="contact">
+
 </section>
 
 

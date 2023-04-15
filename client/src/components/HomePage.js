@@ -69,7 +69,7 @@ const HomePage = () => {
   <p><h2 className='text-left'>Here some of our <span>library pictures:</span></h2></p>
     <div class="container-fluid">
             <div class="row" id="port2-second-row">
-            <div class="col-xs-6 imgcont" id="port2-second-col">
+            <div class="col-xs-6 imgcont bg-image hover-overlay" id="port2-second-col">
                     <img src="https://miro.medium.com/v2/resize:fit:1200/0*36G2SMPQf5XiM05A" alt=" " padding={0} height={300} width={400} />
                     <div
     class="mask"

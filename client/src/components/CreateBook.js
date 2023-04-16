@@ -52,10 +52,10 @@ const CreateBook = (props) => {
           <div className='col-md-8 m-auto'>
             <br />
             <Link to='/show-list' className='btn btn-outline-warning float-left'>
-              Show BooK List
+              <b>Show BooK List</b>
             </Link>
             <Link to='/' className='btn btn-outline-warning float-right'>
-              HOME
+             <b> HOME</b>
             </Link>
             
           </div>

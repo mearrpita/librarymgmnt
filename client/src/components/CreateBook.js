@@ -54,6 +54,10 @@ const CreateBook = (props) => {
             <Link to='/show-list' className='btn btn-outline-warning float-left'>
               Show BooK List
             </Link>
+            <Link to='/show-list' className='btn btn-outline-warning float-right'>
+              HOME
+            </Link>
+            
           </div>
           <div className='col-md-8 m-auto'>
             <h1 className='display-4 t1 text-center'><b>INSERT NEW BOOK</b></h1>

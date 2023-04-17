@@ -16,14 +16,6 @@ const HomePage = () => {
 
   <div className='logo'>
   <span><h1>Library management</h1></span>
-   
-
-    {/* <img src="https://images.vexels.com/content/144524/preview/library-logo-template-design-20587d.png" 
-    height={50}
-    width={150}
-    alt=' ' className=''
- /> */}
-
   </div>
 
   <div className='menu-icon' onClick={handleShowNavbar} >
